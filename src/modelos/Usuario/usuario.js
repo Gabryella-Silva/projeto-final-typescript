@@ -1,11 +1,11 @@
 "use strict";
 /* import {Cadastro} from "./cadastro" */
 Object.defineProperty(exports, "__esModule", { value: true });
-const Cadastro = require("./cadastro");
+const Cadastro = require("../Cadastro/cadastro");
 class Usuario extends Cadastro {
-    /*  constructor (nome:string, email:string){
-         super(nome,email)
-     } */
+    constructor(nome, email) {
+        super(nome, email);
+    }
     cadastrar() {
         if (!this.email.includes("@")) {
             throw new Error(`Email invalido para ${this.nome}`);

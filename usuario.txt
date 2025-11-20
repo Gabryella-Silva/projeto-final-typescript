@@ -1,0 +1,17 @@
+[
+   {
+      "nome": "Maria",
+      "email": "maria@gmail.com",
+      "matricula": "2025"
+   },
+   {
+      "nome": "Marta",
+      "email": "marta@gmail.com",
+      "permissao": "Total"
+   },
+   {
+      "nome": "João",
+      "email": "João@gmail.com",
+      "disciplina": "Matemática"
+   }
+]

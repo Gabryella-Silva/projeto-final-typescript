@@ -1,4 +1,4 @@
-const Usuario = require("./usuario");
+const Usuario = require("../Usuario/usuario");
 
 class Aluno extends Usuario {
     matricula:string
@@ -11,7 +11,7 @@ class Aluno extends Usuario {
 
     cadastrar(): void{
         super.cadastrar();
-        console.log(`aluno cadastrado ${this.nome}, matricula ${this.matricula}`)
+        console.log(`aluno cadastrado ${this.nome}, matricula: ${this.matricula}`)
     }
 }
 module.exports = Aluno;
